@@ -4,6 +4,4 @@
 
 This game is a Tetris, modern one, using sfml.
 
-My dependencies:
-
-- `sfml` 2.5.1
+Youtube Video: https://www.youtube.com/watch?v=PFpgrfR-LXM
