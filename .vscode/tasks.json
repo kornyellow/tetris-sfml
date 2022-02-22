@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++ Build",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/src/main.cpp",
+				"-o",
+				"${workspaceFolder}/src/main",
+				"-I${workspaceFolder}",
+				"-lsfml-graphics",
+				"-lsfml-window",
+				"-lsfml-system",
+				"-lsfml-audio",
+				"-lsfml-network"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}
